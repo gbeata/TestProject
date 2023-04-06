@@ -1,0 +1,52 @@
+Test Plan for To-Do Application:
+
+Add a new to-do item:
+
+Open the application
+Click on the "Add New" button
+Enter the details of the new to-do item
+Click on the "Save" button
+Verify that the new to-do item has been added to the list
+Edit an existing to-do item:
+
+Open the application
+Find the to-do item that needs to be edited
+Click on the "Edit" button next to the to-do item
+Change the details of the to-do item
+Click on the "Save" button
+Verify that the to-do item has been updated with the new details
+Mark a to-do item as completed:
+
+Open the application
+Find the to-do item that needs to be marked as completed
+Click on the checkbox next to the to-do item
+Verify that the to-do item has been marked as completed
+Delete a to-do item:
+
+Open the application
+Find the to-do item that needs to be deleted
+Click on the "Delete" button next to the to-do item
+Verify that the to-do item has been removed from the list
+Test Case Scenarios:
+
+Add a new to-do item:
+
+Test Case 1: Add a to-do item with all required fields filled.
+Test Case 2: Add a to-do item without filling any fields.
+Test Case 3: Add a to-do item with some fields filled and others empty.
+Test Case 4: Add multiple to-do items and verify that they are all added to the list.
+Edit an existing to-do item:
+
+Test Case 1: Edit the details of a to-do item and verify that the changes are saved.
+Test Case 2: Edit the details of a to-do item and then cancel the changes, verify that the original details are still intact.
+Test Case 3: Edit a non-existing to-do item and verify that an error message is displayed.
+Mark a to-do item as completed:
+
+Test Case 1: Mark a to-do item as completed and verify that it is shown as completed.
+Test Case 2: Mark a completed to-do item as incomplete and verify that it is shown as incomplete.
+Delete a to-do item:
+
+Test Case 1: Delete a to-do item and verify that it is removed from the list.
+Test Case 2: Delete a non-existing to-do item and verify that an error message is displayed.
+
+I will create a test script in Python using Selenium WebDriver to test the To-Do application. I will use the PyTest testing framework to organize the test cases and generate the test report.
